@@ -14,8 +14,7 @@ class Login extends React.Component {
   };
 
   render() {
-    return (
-      <div className="container">
+    return (      
         <div className="row">
           <div
             className="col-md-6"
@@ -74,8 +73,7 @@ class Login extends React.Component {
             </div>
           </div>
         </div>
-      </div>
-    );
+    )
   }
 }
 
