@@ -7,10 +7,7 @@ class Home extends React.Component {
         <h1 className="display-3">Bem vindo!</h1>
         <p className="lead">Esse é seu sistema de Skills.</p>
         <hr className="my-4" />
-        <p>
-          Utilize um dos menus ou botões
-          abaixo para navegar pelo sistema.
-        </p>
+        <p>Utilize um dos menus ou botões abaixo para navegar pelo sistema.</p>
         <p className="lead">
           <a
             className="btn btn-primary btn-lg"
@@ -19,11 +16,7 @@ class Home extends React.Component {
           >
             <i className="fa fa-users"></i> Cadastrar Usuário
           </a>
-          <a
-            className="btn btn-danger btn-lg"
-            href="https://bootswatch.com/flatly/#"
-            role="button"
-          >
+          <a className="btn btn-danger btn-lg" href="#/" role="button">
             <i className="fa fa-users"></i> Cadastrar Skill
           </a>
         </p>
